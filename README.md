@@ -12,9 +12,24 @@ The implemented scenario covers:
 - Attempting user registration with a public email domain
 - Verifying that the expected error message appears
 
+The test uses the Page Object Model pattern and Playwright fixtures for maintainability.  
+Additionally, I've added a `baseTest.ts` file which acts as an abstraction layer between the business logic (page objects) and the actual test case, similar to a facade pattern.
+
 ---
 
-The test uses the Page Object Model pattern and Playwright fixtures for maintainability.  
-Additionally, I've added a `baseTest.ts` file which acts as an abstraction layer between the business logic (page objects) and the actual test cases, similar to a facade pattern.
+## Installation & Running
+
+Clone the repository and enter the project directory:
+
+    git clone https://github.com/OskarLypkaa/VeeamTests.git
+    cd VeeamTests
+
+Install dependencies:
+
+    npm install
+
+Install Playwright:
+
+    npx playwright install
 
 
