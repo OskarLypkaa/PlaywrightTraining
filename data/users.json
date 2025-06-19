@@ -1,0 +1,12 @@
+[
+    {
+        "id": "public_email_user",
+        "username": "InterviewUser",
+        "password": "InreviewUser",
+        "confirmPassword": "InreviewUser",
+        "email": "inreviewuser@gmail.com",
+        "timezone": null,
+        "timezoneLabel": null,
+        "fullName": null
+    }
+]
